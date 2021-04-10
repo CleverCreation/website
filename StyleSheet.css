@@ -164,7 +164,7 @@ h1 {
     }
 } 
 /* smaller phone screens in landscape */
-@media only screen and (orientation: landscape) and (max-width: 896px) {
+@media screen and (orientation: landscape) and (max-width: 896px) {
     h1 {
         max-width: 100%;
         text-align: center;
@@ -246,7 +246,7 @@ h1 {
 } 
 
 /* ipad portrait */
-@media screen and (orientation: portrait) and (min-width: 760px) {
+@media screen and (orientation: portrait) and (max-width: 840px) {
     .nav {
         z-index: 1;
         margin: 25px auto;
@@ -316,7 +316,7 @@ h1 {
 }
 
  /* ipad landscape */
-@media only screen and (orientation: landscape) and (min-width: 830px) and (max-width: 1400px) {
+@media only screen and (orientation: landscape) and (min-width: 1024px) and (max-width: 1400px) {
     h1 {
         max-width: 100%;
         text-align: center;
