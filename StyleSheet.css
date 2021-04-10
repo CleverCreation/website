@@ -179,8 +179,8 @@ h1 {
         text-align: center;
         position: absolute;
         z-index: 1;
-        top: 85%;
-        left: 30%;
+        top: 90%;
+        left: 25%;
         box-sizing: border-box; 
     }
     img {
@@ -195,27 +195,27 @@ h1 {
         text-align: center;
         font-weight: bold;
         color: rgb(38, 136, 107);
-        font-size: 14px;
+        font-size: 20px;
      }
      .about {
         margin: 8px auto;
         text-align: center;
         font-weight: bold;
         color: rgb(38, 136, 107);
-        font-size: 14px;
+        font-size: 20px;
 
      }
      .phone {
-        margin: 8px auto;
+        margin: 25px auto;
         text-align: center;
         font-weight: bold;
         color: rgb(38, 136, 107);
-        font-size: 14px;
+        font-size: 20px;
      }
      .bio {
         font-weight: bold;
         color: rgb(38, 136, 107);
-        font-size: 12px;
+        font-size: 18px;
         padding-left: 1em;
         padding-right: 1em;
      }
