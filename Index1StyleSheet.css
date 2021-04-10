@@ -381,7 +381,7 @@ a {
     }
 } 
   /* laptop and larger ipad screens */
-  @media only screen and (orientation: landscape) and (min-width: 1025px) and (max-width: 1400px) {
+  @media only screen and (orientation: landscape) and (min-width: 1201px) and (max-width: 1400px) {
     .window {
         position: absolute;
         top: 50%;
