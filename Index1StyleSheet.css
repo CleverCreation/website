@@ -312,8 +312,8 @@ a {
       }
 }
 
-   /* ipad and laptop landscape */
-   @media only screen and (orientation: landscape) and (min-width: 1024px) and (max-width: 1400px) {
+   /* smaller ipad screens */
+   @media only screen and (orientation: landscape) and (min-width: 1024px) and (max-width: 1200px) {
     .window {
         position: absolute;
         top: 50%;
@@ -358,7 +358,8 @@ a {
         position: absolute;
         left: 5%;
         top: 50%;
-        background-color:rgb(139, 226, 200); 
+        background-color: yellow;
+        /* background-color:rgb(139, 226, 200);  */
         color:rgb(29, 75, 61)
     }
     .btn:hover {
