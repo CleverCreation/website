@@ -314,11 +314,26 @@ a {
 
    /* ipad and laptop landscape */
    @media only screen and (orientation: landscape) and (min-width: 1024px) and (max-width: 1400px) {
+    .window {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        margin: 0;
+        width: 45%; 
+        height: 60%; 
+        box-sizing: border-box;
+        border: 8px solid rgb(103, 17, 173);
+        text-align: center; 
+        background-color: white;
+    }
     .nav {
         position: absolute;
         z-index: 1;
-        top: 65%;
-        left: 40%;
+        top: 75%;
+        left: 30%;
         box-sizing: border-box; 
         text-align: center; 
     }
@@ -327,7 +342,7 @@ a {
         background-color: #cccccc;
         opacity: .3;
         width: 100%;
-        max-height: 75%; 
+        max-height: 800px; 
     }
     
     a {
@@ -341,8 +356,8 @@ a {
     }
     .btn {
         position: absolute;
-        left: 2%;
-        top: 60%;
+        left: 5%;
+        top: 50%;
         background-color: rgb(255, 166, 0);
         /* background-color:rgb(139, 226, 200); */
         color:rgb(29, 75, 61)
