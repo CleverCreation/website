@@ -46,55 +46,6 @@ img {
     top: 60%;
 }
 
-h1 {
-    max-width: 100%;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0; 
-    margin: 0;
-    background-color: aquamarine;
-    font-weight: bold;
-    color: blue; 
-    font-size: 32px;
-}
-.phone {
-    margin: 8px auto;
-    text-align: center;
-    font-weight: bold;
-    color: rgb(38, 136, 107);
-    font-size: 22px;
- }
- .email {
-    margin: 8px auto;
-    text-align: center;
-    font-weight: bold;
-    color: rgb(38, 136, 107);
-    font-size: 22px;
- }
- .about {
-    margin: 8px auto;
-    text-align: center;
-    font-weight: bold;
-    color: rgb(38, 136, 107);
-    font-size: 22px;
- }
- .bio {
-    font-weight: bold;
-    color: rgb(38, 136, 107);
-    font-size: 18px;
-    padding-left: 2em;
-    padding-right: 2em;
- }
- /* .nav {
-    position: absolute;
-    top: 80%;
-    left: 5%;
-    z-index: 1;
-    margin: 0 auto;
-    text-align: center;
-} */
-
 a {
     font-size: 14px;
     text-align: center;
@@ -167,22 +118,11 @@ a {
         box-shadow: 0 6px 8px 0 black;
         outline: none;
       }
-    .container {
-        position: absolute;
-        max-width: 900px; 
-        min-width: 300px; 
-        left: 5%;  
-        top: 40%;  
-        padding: 0;
-        box-sizing: border-box;
-        border: 2px solid blue;
-        text-align: center; 
-        background-color: white;
+    
     }
-}
 
-/*  small phone screens in portrait */
-@media (max-width: 759px) {
+/*  phone screens in portrait */
+@media screen and (orientation: portrait) and (max-width: 450px) {
 
     .window {
         position: absolute;
@@ -207,17 +147,7 @@ a {
         box-sizing: border-box;
         margin: 0 auto; 
     }
-    .email {
-        margin: 8px auto;
-        text-align: center;
-        font-weight: bold;
-        color: rgb(38, 136, 107);
-        font-size: 16px;
-     }
-    .container {
-        margin: 0 auto;
-        justify-content: center;
-    }
+    
     a {
         font-size: 11px;
         text-align: center;
@@ -258,19 +188,8 @@ a {
     }
     
 } 
- /* small phone screens in landscape */
-@media only screen and (orientation: landscape) and (max-width: 812px) {
-    h1 {
-        max-width: 90%;
-        text-align: center;
-        margin-top: 0; 
-        margin: 0 auto;
-        background-color: aquamarine;
-        font-weight: bold;
-        color: blue; 
-        font-size: 28px;
-    }
-
+ /* phone screens in landscape */
+@media screen and (orientation: landscape) and (max-width: 896px) {
     .window {
         position: absolute;
         top: 45%;
@@ -302,41 +221,7 @@ a {
         width: 100%;
         max-height: 340px; 
     }
-    .email {
-        margin: 2px auto;
-        text-align: center;
-        font-weight: bold;
-        color: rgb(38, 136, 107);
-        font-size: 14px;
-     }
-     .about {
-        margin: 8px auto;
-        text-align: center;
-        font-weight: bold;
-        color: rgb(38, 136, 107);
-        font-size: 14px;
-     }
-     .phone {
-        margin: 8px auto;
-        text-align: center;
-        font-weight: bold;
-        color: rgb(38, 136, 107);
-        font-size: 14px;
-     }
-     .bio {
-        font-weight: bold;
-        color: rgb(38, 136, 107);
-        font-size: 12px;
-        padding-left: 1em;
-        padding-right: 1em;
-     }
-    .container {
-        position: absolute;
-        z-index: 1;
-        top: 25%;
-        left: 5%; 
-        margin: 0 auto;
-    }
+    
     a {
         font-size: 12px;
         text-align: center;
@@ -353,6 +238,18 @@ a {
         background-color:rgb(139, 226, 200);
         color:rgb(29, 75, 61)
     }
+    .btn:hover {
+        background-color: rgb(134, 250, 215);
+        color: black;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        outline: none;
+      }
+      .btn:active {
+        background-color: rgb(41, 240, 180);
+        color: black;
+        box-shadow: 0 6px 8px 0 black;
+        outline: none;
+      }
     .copyright {
         text-align: center;
         font-size: 11px;
@@ -360,7 +257,7 @@ a {
 } 
 
  /* ipad portrait */
-@media screen and (orientation: portrait) and (min-width: 760px) {
+ @media screen and (orientation: portrait) and (min-width: 760px) and (max-width: 1024px) {
     .nav {
         margin: 25px auto;
         box-sizing: border-box;
@@ -376,30 +273,29 @@ a {
         color: white;
         border-radius: 25px;
     }
-        
-    .container {
-        font-size: 14px; 
-        padding: 0;
-        box-sizing: border-box;
-        border: 2px solid blue;
-        text-align: center; 
-        background-color: white;
-        margin: 0 auto; 
+    .btn {
+        position: absolute;
+        left: 2%;
+        top: 60%;
+        background-color:rgb(139, 226, 200);
+        color:rgb(29, 75, 61)
     }
+    .btn:hover {
+        background-color: rgb(134, 250, 215);
+        color: black;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        outline: none;
+      }
+      .btn:active {
+        background-color: rgb(41, 240, 180);
+        color: black;
+        box-shadow: 0 6px 8px 0 black;
+        outline: none;
+      }
 }
 
    /* ipad landscape */
-@media only screen and (orientation: landscape) and (min-width: 813px) and (max-width: 1400px) {
-    h1 {
-        max-width: 100%;
-        text-align: center;
-        margin-top: 0; 
-        margin: 0 auto;
-        background-color: aquamarine;
-        font-weight: bold;
-        color: blue; 
-        font-size: 28px;
-    }
+   @media only screen and (orientation: landscape) and (min-width: 1024px) and (max-width: 1400px) {
     .nav {
         position: absolute;
         z-index: 1;
@@ -415,46 +311,7 @@ a {
         width: 100%;
         max-height: 75%; 
     }
-    .email {
-        margin: 2px auto;
-        text-align: center;
-        font-weight: bold;
-        color: rgb(38, 136, 107);
-        font-size: 14px;
-     }
-     .about {
-        margin: 8px auto;
-        text-align: center;
-        font-weight: bold;
-        color: rgb(38, 136, 107);
-        font-size: 14px;
-     }
-     .phone {
-        margin: 8px auto;
-        text-align: center;
-        font-weight: bold;
-        color: rgb(38, 136, 107);
-        font-size: 14px;
-     }
-     .bio {
-        font-weight: bold;
-        color: rgb(38, 136, 107);
-        font-size: 12px;
-        padding-left: 1em;
-        padding-right: 1em;
-     }
-    .container {
-        margin: 0 auto;
-        position: absolute; 
-        left: 10%;
-        top: 40%;  
-        padding: 0;
-        box-sizing: border-box;
-        border: 2px solid blue;
-        text-align: center; 
-        background-color: white;
-        max-width: 80%;
-    }
+    
     a {
         font-size: 12px;
         text-align: center;
@@ -464,6 +321,25 @@ a {
         color: white;
         border-radius: 25px;
     }
+    .btn {
+        position: absolute;
+        left: 2%;
+        top: 60%;
+        background-color:rgb(139, 226, 200);
+        color:rgb(29, 75, 61)
+    }
+    .btn:hover {
+        background-color: rgb(134, 250, 215);
+        color: black;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        outline: none;
+      }
+      .btn:active {
+        background-color: rgb(41, 240, 180);
+        color: black;
+        box-shadow: 0 6px 8px 0 black;
+        outline: none;
+      }
     .copyright {
         text-align: center;
         font-size: 11px;
