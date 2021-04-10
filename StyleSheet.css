@@ -133,7 +133,6 @@ h1 {
         text-align: center;
         box-sizing: border-box;
         justify-content: center; 
-        margin: 0 auto; 
     }
     .phone {
         margin: 10px auto;
@@ -197,6 +196,7 @@ h1 {
     .copyright {
         text-align: center;
         font-size: 10px;
+        margin: 10px auto;
     }
     
 }
