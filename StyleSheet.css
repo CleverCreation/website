@@ -330,8 +330,8 @@ h1 {
     .nav {
         position: absolute;
         z-index: 1;
-        top: 65%;
-        left: 40%;
+        top: 85%;
+        left: 35%;
         box-sizing: border-box; 
         text-align: center; 
     }
@@ -347,27 +347,27 @@ h1 {
         text-align: center;
         font-weight: bold;
         color: rgb(38, 136, 107);
-        font-size: 18px;
+        font-size: 20px;
      }
      .about {
         margin: 8px auto;
         text-align: center;
         font-weight: bold;
         color: rgb(38, 136, 107);
-        font-size: 18px;
+        font-size: 20px;
      }
      .phone {
-        margin: 3px auto;
+        margin: 25px auto;
         padding: 0;
         text-align: center;
         font-weight: bold;
         color: rgb(38, 136, 107);
-        font-size: 18px;
+        font-size: 20px;
      }
      .bio {
         font-weight: bold;
         color: rgb(38, 136, 107);
-        font-size: 16px;
+        font-size: 18px;
         padding-left: 1em;
         padding-right: 1em;
      }
