@@ -330,8 +330,8 @@ h1 {
     .nav {
         position: absolute;
         z-index: 1;
-        top: 85%;
-        left: 35%;
+        top: 70%;
+        left: 30%;
         box-sizing: border-box; 
         text-align: center; 
     }
@@ -375,7 +375,7 @@ h1 {
         margin: 0 auto;
         position: absolute; 
         left: 10%;
-        top: 35%;  
+        top: 25%;  
         padding: 0;
         box-sizing: border-box;
         border: 2px solid blue;
@@ -384,7 +384,7 @@ h1 {
         max-width: 80%;
     }
     a {
-        font-size: 12px;
+        font-size: 16px;
         text-align: center;
         text-decoration: none;
         padding: 8px;
