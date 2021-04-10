@@ -129,6 +129,7 @@ h1 {
 /* smaller phone screens in portrait */
 @media screen and (orientation: portrait) and (max-width: 450px) {
     .nav {
+        margin: 25px auto;
         text-align: center;
         box-sizing: border-box;
         justify-content: center; 
@@ -139,14 +140,14 @@ h1 {
         text-align: center;
         font-weight: bold;
         color: rgb(38, 136, 107);
-        font-size: 12px;
+        font-size: 14px;
      }
     .email {
-        margin: 8px auto;
+        margin: 10px auto;
         text-align: center;
         font-weight: bold;
         color: rgb(38, 136, 107);
-        font-size: 12px;
+        font-size: 14px;
      }
     .container {
         /* margin: 0 auto;
@@ -158,7 +159,7 @@ h1 {
         background-color: white;
     }
     a {
-        font-size: 12px;
+        font-size: 14px;
         text-align: center;
         text-decoration: none;
         padding: 8px;
@@ -183,12 +184,12 @@ h1 {
         text-align: center;
         font-weight: bold;
         color: rgb(38, 136, 107);
-        font-size: 14px;
+        font-size: 16px;
      }
      .bio {
         font-weight: bold;
         color: rgb(38, 136, 107);
-        font-size: 12px;
+        font-size: 14px;
         padding-left: 1em;
         padding-right: 1em;
      }
