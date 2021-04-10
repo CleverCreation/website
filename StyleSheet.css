@@ -316,7 +316,7 @@ h1 {
 }
 
  /* ipad landscape */
-@media only screen and (orientation: landscape) and (min-width: 897px) and (max-width: 1400px) {
+@media only screen and (orientation: landscape) and (min-width: 830px) and (max-width: 1400px) {
     h1 {
         max-width: 100%;
         text-align: center;
