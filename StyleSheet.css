@@ -127,15 +127,9 @@ h1 {
 }
 
 /* smaller phone screens in portrait */
-
-@media (max-width: 759px) {
+@media screen and (orientation: portrait) and (max-width: 839px) {
     .nav {
         text-align: center;
-        /*top: 85%;
-        left: 15%; */
-        z-index: 1;
-        /*margin-left: auto;
-        margin-right: auto; */
         box-sizing: border-box;
         justify-content: center; 
         margin: 0 auto; 
@@ -217,7 +211,7 @@ h1 {
         position: absolute;
         z-index: 1;
         top: 90%;
-        left: 25%;
+        left: 30%;
         box-sizing: border-box; 
     }
     img {
