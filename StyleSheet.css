@@ -145,14 +145,14 @@ h1 {
         text-align: center;
         font-weight: bold;
         color: rgb(38, 136, 107);
-        font-size: 12px;
+        font-size: 11px;
      }
     .email {
         margin: 8px auto;
         text-align: center;
         font-weight: bold;
         color: rgb(38, 136, 107);
-        font-size: 12px;
+        font-size: 11px;
      }
     .container {
         margin: 0 auto;
@@ -177,14 +177,14 @@ h1 {
         background-color: aquamarine;
         font-weight: bold;
         color: blue; 
-        font-size: 28px;
+        font-size: 26px;
     }
      .about {
         margin: 8px auto;
         text-align: center;
         font-weight: bold;
         color: rgb(38, 136, 107);
-        font-size: 12px;
+        font-size: 11px;
      }
      .bio {
         font-weight: bold;
@@ -196,7 +196,7 @@ h1 {
     
     .copyright {
         text-align: center;
-        font-size: 10px;
+        font-size: 9px;
     }
     
 }
