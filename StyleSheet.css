@@ -127,7 +127,7 @@ h1 {
 }
 
 /* smaller phone screens in portrait */
-@media screen and (orientation: portrait) and (max-width: 839px) {
+@media screen and (orientation: portrait) and (max-width: 450px) {
     .nav {
         text-align: center;
         box-sizing: border-box;
@@ -277,7 +277,7 @@ h1 {
 } 
 
 /* ipad portrait */
-@media screen and (orientation: portrait) and (max-width: 840px) {
+@media screen and (orientation: portrait) and (min-width: 760) and (max-width: 840px) {
     .nav {
         z-index: 1;
         margin: 25px auto;
