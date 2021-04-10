@@ -259,7 +259,9 @@ a {
  /* ipad portrait */
  @media screen and (orientation: portrait) and (min-width: 760px) and (max-width: 1024px) {
     .nav {
-        margin: 25px auto;
+        position: absolute;
+        top: 80%;
+        margin: 0 auto;
         box-sizing: border-box;
         text-align: center;
     } 
