@@ -332,8 +332,8 @@ a {
     .nav {
         position: absolute;
         z-index: 1;
-        top: 75%;
-        left: 30%;
+        top: 85%;
+        left: 35%;
         box-sizing: border-box; 
         text-align: center; 
     }
@@ -358,8 +358,7 @@ a {
         position: absolute;
         left: 5%;
         top: 50%;
-        background-color: rgb(255, 166, 0);
-        /* background-color:rgb(139, 226, 200); */
+        background-color:rgb(139, 226, 200); 
         color:rgb(29, 75, 61)
     }
     .btn:hover {
