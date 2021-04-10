@@ -248,17 +248,17 @@ h1 {
 /* ipad portrait */
 @media screen and (orientation: portrait) and (min-width: 760px) {
     .nav {
-        position: absolute;
+        /* position: absolute;
         top: 75%;
-        left: 15%; 
+        left: 20%; */
         z-index: 1;
-        margin: 25px auto;
+        margin: 25px; auto;
         box-sizing: border-box;
         text-align: center;
     } 
     
     a {
-        font-size: 16px;
+        font-size: 20px;
         text-align: center;
         text-decoration: none;
         padding: 15px;
@@ -266,10 +266,40 @@ h1 {
         color: white;
         border-radius: 25px;
     }
+    .email {
+        margin: 8px auto;
+        text-align: center;
+        font-weight: bold;
+        color: rgb(38, 136, 107);
+        font-size: 20px;
+     }
+     .about {
+        margin: 8px auto;
+        text-align: center;
+        font-weight: bold;
+        color: rgb(38, 136, 107);
+        font-size: 20px;
+
+     }
+     .phone {
+        margin: 8px auto;
+        padding: 0;
+        text-align: center;
+        font-weight: bold;
+        color: rgb(38, 136, 107);
+        font-size: 20px;
+     }
+     .bio {
+        font-weight: bold;
+        color: rgb(38, 136, 107);
+        font-size: 18px;
+        padding-left: 1em;
+        padding-right: 1em;
+     }
         
     .container {
-        position: absolute;
-        top: 40%;  
+        /*position: absolute;
+        top: 40%;  */
         margin: 0px 10px auto;
         font-size: 18px; 
         padding: 0;
@@ -304,7 +334,7 @@ h1 {
         position: absolute;
         z-index: 1;
         top: 65%;
-        left: 35%;
+        left: 40%;
         box-sizing: border-box; 
         text-align: center; 
     }
@@ -320,26 +350,27 @@ h1 {
         text-align: center;
         font-weight: bold;
         color: rgb(38, 136, 107);
-        font-size: 14px;
+        font-size: 18px;
      }
      .about {
         margin: 8px auto;
         text-align: center;
         font-weight: bold;
         color: rgb(38, 136, 107);
-        font-size: 14px;
+        font-size: 18px;
      }
      .phone {
-        margin: 8px auto;
+        margin: 3px auto;
+        padding: 0;
         text-align: center;
         font-weight: bold;
         color: rgb(38, 136, 107);
-        font-size: 14px;
+        font-size: 18px;
      }
      .bio {
         font-weight: bold;
         color: rgb(38, 136, 107);
-        font-size: 12px;
+        font-size: 16px;
         padding-left: 1em;
         padding-right: 1em;
      }
