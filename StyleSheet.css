@@ -131,13 +131,11 @@ h1 {
 @media (max-width: 759px) {
     .nav {
         text-align: center;
-        top: 85%;
-        left: 15%;
+        /*top: 85%;
+        left: 15%; */
         z-index: 1;
-        min-width: 300px;
-        max-width: 900px;
-        margin-left: auto;
-        margin-right: auto; 
+        /*margin-left: auto;
+        margin-right: auto; */
         box-sizing: border-box;
         justify-content: center; 
         margin: 0 auto; 
@@ -161,7 +159,7 @@ h1 {
         justify-content: center;
     }
     a {
-        font-size: 10px;
+        font-size: 8px;
         text-align: center;
         text-decoration: none;
         padding: 8px;
