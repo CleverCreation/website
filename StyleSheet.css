@@ -142,12 +142,19 @@ h1 {
         justify-content: center; 
         margin: 0 auto; 
     }
+    .phone {
+        margin: 8px auto;
+        text-align: center;
+        font-weight: bold;
+        color: rgb(38, 136, 107);
+        font-size: 12px;
+     }
     .email {
         margin: 8px auto;
         text-align: center;
         font-weight: bold;
         color: rgb(38, 136, 107);
-        font-size: 16px;
+        font-size: 12px;
      }
     .container {
         margin: 0 auto;
@@ -162,7 +169,39 @@ h1 {
         color: white;
         border-radius: 25px;
     }
-} 
+    h1 {
+        max-width: 100%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0; 
+        margin: 0;
+        background-color: aquamarine;
+        font-weight: bold;
+        color: blue; 
+        font-size: 32px;
+    }
+     .about {
+        margin: 8px auto;
+        text-align: center;
+        font-weight: bold;
+        color: rgb(38, 136, 107);
+        font-size: 12px;
+     }
+     .bio {
+        font-weight: bold;
+        color: rgb(38, 136, 107);
+        font-size: 11px;
+        padding-left: 2em;
+        padding-right: 2em;
+     }
+    
+    .copyright {
+        text-align: center;
+        font-size: 12px;
+    }
+    
+}
 /* smaller phone screens in landscape */
 @media screen and (orientation: landscape) and (max-width: 896px) {
     h1 {
@@ -195,14 +234,14 @@ h1 {
         text-align: center;
         font-weight: bold;
         color: rgb(38, 136, 107);
-        font-size: 20px;
+        font-size: 12px;
      }
      .about {
         margin: 8px auto;
         text-align: center;
         font-weight: bold;
         color: rgb(38, 136, 107);
-        font-size: 20px;
+        font-size: 12px;
 
      }
      .phone {
@@ -210,12 +249,12 @@ h1 {
         text-align: center;
         font-weight: bold;
         color: rgb(38, 136, 107);
-        font-size: 20px;
+        font-size: 12px;
      }
      .bio {
         font-weight: bold;
         color: rgb(38, 136, 107);
-        font-size: 18px;
+        font-size: 11px;
         padding-left: 1em;
         padding-right: 1em;
      }
