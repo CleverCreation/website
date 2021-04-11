@@ -189,19 +189,6 @@ a {
     
 } 
 
-/* sizing the window down in portrait on laptop/pc */
-@media screen and (orientation: portrait) and (min-width: 451px) and (max-width 490px) {
-    a {
-        font-size: 11px;
-        text-align: center;
-        text-decoration: none;
-        padding: 5px;
-        background-color: #74b7fa;
-        color: white;
-        border-radius: 25px;
-    }
-}
-
  /* phone screens in landscape */
 @media screen and (orientation: landscape) and (max-width: 896px) {
     .window {
