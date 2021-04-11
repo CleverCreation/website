@@ -361,7 +361,7 @@ h1 {
     .nav {
         position: absolute;
         z-index: 1;
-        top: 75%;
+        top: 80%;
         left: 30%;
         box-sizing: border-box; 
         text-align: center; 

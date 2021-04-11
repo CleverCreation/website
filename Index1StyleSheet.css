@@ -357,7 +357,7 @@ a {
     }
     .btn {
         position: absolute;
-        left: 5%;
+        left: 8%;
         top: 50%;
         background-color: yellow;
         /* background-color:rgb(139, 226, 200);  */
@@ -384,7 +384,7 @@ a {
   @media only screen and (orientation: landscape) and (min-width: 1201px) and (max-width: 1400px) {
     .window {
         position: absolute;
-        top: 50%;
+        top: 48%;
         left: 50%;
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
@@ -401,7 +401,7 @@ a {
         position: absolute;
         z-index: 1;
         top: 85%;
-        left: 35%;
+        left: 38%;
         box-sizing: border-box; 
         text-align: center; 
     }
@@ -414,7 +414,7 @@ a {
     }
     
     a {
-        font-size: 12px;
+        font-size: 14px;
         text-align: center;
         text-decoration: none;
         padding: 8px;
@@ -424,10 +424,9 @@ a {
     }
     .btn {
         position: absolute;
-        left: 5%;
+        left: 8%;
         top: 50%;
-        background-color: rgb(255, 115, 0);
-        /* background-color:rgb(139, 226, 200);  */
+        background-color:rgb(139, 226, 200);  
         color:rgb(29, 75, 61)
     }
     .btn:hover {
