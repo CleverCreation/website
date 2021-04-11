@@ -189,7 +189,7 @@ a {
     
 } 
 /* sizing the window down in portrait on laptop/pc */
-@media screen and (orientation: portrait) and (min-width: 451px) and (max-width: 506px) {
+@media screen and (orientation: portrait) and (min-width: 451px) {
     .nav {
         position: absolute;
         text-align: center;
