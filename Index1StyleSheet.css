@@ -83,7 +83,7 @@ a {
     .nav {
         position: absolute;
         top: 80%;
-        left: 40%;
+        left: 33%;
         z-index: 1;
         box-sizing: border-box;
     } 
@@ -217,6 +217,13 @@ a {
         font-size: 9px;
         outline: none;
     }
+    .copyright {
+        position: absolute;
+        left: 33%;
+        text-align: center;
+        font-size: 12px;
+        top: 95%;
+    }
 }
 
  /* phone screens in landscape */
@@ -342,6 +349,13 @@ a {
         box-shadow: 0 6px 8px 0 black;
         outline: none;
       }
+      .copyright {
+        position: absolute;
+        left: 33%;
+        text-align: center;
+        font-size: 12px;
+        top: 95%;
+    }
 }
 
    /* smaller ipad screens */
