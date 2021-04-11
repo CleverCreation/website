@@ -306,8 +306,7 @@ a {
     }
     .nav {
         position: absolute;
-        top: 80%;
-        left: 25%;
+        top: 75%;
         margin: 0 auto;
         box-sizing: border-box;
         text-align: center;
@@ -324,7 +323,6 @@ a {
     }
     .btn {
         position: absolute;
-        left: 2%;
         top: 40%;
         background-color:rgb(139, 226, 200);
         color:rgb(29, 75, 61);
