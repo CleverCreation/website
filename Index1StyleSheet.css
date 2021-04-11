@@ -190,6 +190,15 @@ a {
 } 
 /* sizing the window down in portrait on laptop/pc */
 @media screen and (orientation: portrait) and (min-width: 451px) and (max-width: 506px) {
+    .nav {
+        position: absolute;
+        text-align: center;
+        top: 85%;
+        z-index: 1;
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0 auto; 
+    }
     a {
         font-size: 11px;
         text-align: center;
@@ -201,8 +210,8 @@ a {
     }
     .btn {
         position: absolute;
-        left: 5%;
-        top: 88%;
+        left: 3%;
+        top: 50%;
         background-color:rgb(139, 226, 200);
         color:rgb(45, 105, 87);
         font-size: 9px;
