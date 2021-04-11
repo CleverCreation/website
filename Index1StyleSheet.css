@@ -314,10 +314,10 @@ a {
 
    /* smaller ipad screens */
   /* @media only screen and (orientation: landscape) and (min-width: 1024px) and (max-width: 1200px) */
-   @media only screen and (orientation: landscape) and (min-width: 900px) and (max-width: 1200px) {
+   @media screen and (orientation: landscape) and (min-width: 900px) and (max-width: 1200px) {
     .window {
         position: absolute;
-        top: 50%;
+        top: 40%;
         left: 50%;
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
@@ -333,7 +333,7 @@ a {
     .nav {
         position: absolute;
         z-index: 1;
-        top: 85%;
+        top: 75%;
         left: 35%;
         box-sizing: border-box; 
         text-align: center; 
@@ -358,7 +358,7 @@ a {
     .btn {
         position: absolute;
         left: 8%;
-        top: 50%;
+        top: 45%;
         background-color: yellow;
         /* background-color:rgb(139, 226, 200);  */
         color:rgb(29, 75, 61)
@@ -381,7 +381,7 @@ a {
     }
 } 
   /* laptop and larger ipad screens */
-  @media only screen and (orientation: landscape) and (min-width: 1201px) and (max-width: 1400px) {
+  @media screen and (orientation: landscape) and (min-width: 1201px) and (max-width: 1400px) {
     .window {
         position: absolute;
         top: 48%;
@@ -410,7 +410,7 @@ a {
         background-color: #cccccc;
         opacity: .3;
         width: 100%;
-        max-height: 800px; 
+        max-height: 558px; 
     }
     
     a {
