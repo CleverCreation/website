@@ -27,7 +27,7 @@ h3 {
     font-size: 18px;
     text-align: center;
     font-weight: bold;
-    margin: 0 auto;
+    margin: 10px auto;
     padding: 2px;
 }
 
@@ -123,6 +123,10 @@ a {
         width: 90%; 
     }
 
+    h3 {
+        font-size: 12px;
+    }
+
     .nav {
         top: 80%;
         left: 2%; 
@@ -189,8 +193,9 @@ a {
 
     h3 {
         font-size: 14px;
+        margin: 2px auto;
     }
-    
+
     .nav {
         top: 80%;
         left: 40%;
