@@ -197,12 +197,12 @@ a {
     }
 
     .nav {
-        top: 80%;
-        left: 40%;
+        top: 75%;
+        left: 38%;
     }
 
     img {
-        max-height: 90vh; 
+        max-height: 80vh; 
     }
     
     a {
@@ -215,6 +215,9 @@ a {
         top: 50%;
         font-size: 14px;
     }  
+    .copyright {
+        margin: 0 auto;
+    }
 } 
 
  /* ipad portrait */
