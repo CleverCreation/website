@@ -120,6 +120,16 @@ a {
         font-size: 26px;
     }
 
+    .nav {
+        margin: 25px auto;
+        box-sizing: border-box;
+        text-align: center;
+    } 
+
+    a {
+        font-size: 11px;
+    }
+
      .about {
         font-size: 16px;
      }
