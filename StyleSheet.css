@@ -180,7 +180,7 @@ a {
     .container {
         position: absolute;
         z-index: 1;
-        top: 10%;
+        top: 15%;
         margin: 0px 10px auto;
     }
 
