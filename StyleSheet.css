@@ -182,6 +182,13 @@ a {
         top: 10%;
         margin: 0px 10px auto;
     }
+
+    .nav {
+        position: absolute;
+        top: 65%;
+        left: 30%;
+        z-index: 1;
+    }
    
     a {
         font-size: 12px;
