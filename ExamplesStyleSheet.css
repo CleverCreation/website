@@ -24,9 +24,11 @@
 
 h3 {
     display: block;
-    font-size: 18;
+    font-size: 18px;
     text-align: center;
     font-weight: bold;
+    margin: 0 auto;
+    padding: 2px;
 }
 
 img {
@@ -180,11 +182,18 @@ a {
 
     .window {
         top: 40%;
+        left: 60%;
+        width: 65%;
+        height: 65%;
     }
 
+    h3 {
+        font-size: 14px;
+    }
+    
     .nav {
-        top: 75%;
-        left: 30%;
+        top: 80%;
+        left: 40%;
     }
 
     img {
